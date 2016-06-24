@@ -65,7 +65,7 @@ Do this for all videos!
 
 **2 - PSF estimation**
 
-Using the source code [2] (Windows O.S. only) you can estimate the PSF for one picture. Use this source of all images and compute an average of all, then you will get the estimated PSF for each equipment.
+Using the source code in [2], for Windows O.S. only, you can estimate the PSF for one picture. Use this source of all images and compute an average of all, then you will get the estimated PSF for each equipment.
 
 **3 - Artificial images**
 
