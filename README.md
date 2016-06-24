@@ -52,8 +52,8 @@ All datasets used in this work can be downloaded at the following links:
 The results of the histogram fitting can be done running the file **/tests/fit_dist_noise/testes_distribuicoes.m** or using the methods **FitMeThis.m** and **AllFitDist.m**.
 Take the pixels of a homogeneous region of the image that contains noisy. Pass these pixels as a vector for the methods. Will return the probability distribution. As the pictures below:
 
-![GetHistogram](/tests/fit_dist_noise/fitsample/nial1_hist.pdf)
-![Fit](/tests/fit_dist_noise/fitsample/fit-gauss.pdf)
+![GetHistogram](/tests/fit_dist_noise/fitsample/nial1_hist.png)
+![Fit](/tests/fit_dist_noise/fitsample/fit-gauss.png)
 
 Do this for all videos!
 
