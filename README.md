@@ -28,7 +28,8 @@ The external algorithms used in this work can be download in the following links
 
 #### PSF estimation ####
 
-* **Fast motion deblurring **:  Sunghyun and Seungyong source code [2]
+* **Fast Motion Deblurring**:  Sunghyun and Seungyong source code [2]
+*
 
 ***
 
