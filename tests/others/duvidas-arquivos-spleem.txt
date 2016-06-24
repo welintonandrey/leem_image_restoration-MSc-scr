@@ -1,0 +1,12 @@
+Dúvidas
+
+1 - O que é um elétron SPIN? Quando um elétron está como SPIN-DONW ou SPIN-UP?
+
+2 - Os valores do pixel tem algum significado (Pode-se normalizar os dados pois os frames estão em UINT16(16bits) )? A análise é feita somente visual ou esses valores das intensidades dos píxels tem algum significado, já que os frames SPINUP e SPINDN são UINT16 e os frames SPLEEM são DOUBLE com valores negativos?
+
+3 - Qual o significado das pastas X, Y e Z? E qual o motivo de cada pasta ter quantidade diferente de frames? Não são da mesma amostra?
+
+4 - Nos 3 datasets enviados, todos os frames das pastas X e Y referente ao SPLEEM estão com uma qualidade muito ruim, praticamente só ruído. Já os frames dos SPINUP e SPINDN estão bons. Como que é feita alguma análise já que os dataset de "boa qualidade" ao meu ver estão em péssima qualidade
+
+5 - Não encontrei nenhum frame com uma qualidade visual boa igual os frames do artigo, achei isso estranho. Como que eles visualizam estes arquivos? Tem algum software para isso?
+

@@ -1,0 +1,57 @@
+areas homogeneas
+
+233 25 [233 25 30 10]
+265 35
+
+229 130 [229 130 50 40]
+273 183
+
+170 220 [170 220 40 40]
+210 260
+
+120 330 [120 330 50 40]
+170 370
+
+10 10 [10 10 50 50]
+50 50
+
+
+PSNR(imcrop(mat2gray(imgtest),[10 10 50 50]), imcrop(mat2gray(res(1).image),[10 10 50 50]))
+PSNR(imcrop(mat2gray(imgtest),[233 25 30 10]), imcrop(mat2gray(res(1).image),[233 25 30 10]))
+PSNR(imcrop(mat2gray(imgtest),[229 130 50 40]), imcrop(mat2gray(res(1).image),[229 130 50 40]))
+PSNR(imcrop(mat2gray(imgtest),[170 220 40 40]), imcrop(mat2gray(res(1).image),[170 220 40 40]))
+PSNR(imcrop(mat2gray(imgtest),[120 330 50 40]), imcrop(mat2gray(res(1).image),[120 330 50 40]))
+PSNR(imcrop(mat2gray(imgtest),[10 10 50 50]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[10 10 50 50]))
+PSNR(imcrop(mat2gray(imgtest),[233 25 30 10]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[233 25 30 10]))
+PSNR(imcrop(mat2gray(imgtest),[229 130 50 40]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[229 130 50 40]))
+PSNR(imcrop(mat2gray(imgtest),[170 220 40 40]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[170 220 40 40]))
+PSNR(imcrop(mat2gray(imgtest),[120 330 50 40]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[120 330 50 40]))
+
+
+
+bordas
+
+192 175 [192 175 44 32]
+236 207 
+
+216 15 [216 15 72 40]
+288 54
+
+277 121 [277 121 40 28]
+318 149
+
+217 386 [217 386 55 30]
+272 417
+
+
+PSNR(imcrop(mat2gray(imgtest),[192 175 44 32]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[192 175 44 32]))
+PSNR(imcrop(mat2gray(imgtest),[216 15 72 40]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[216 15 72 40]))
+PSNR(imcrop(mat2gray(imgtest),[277 121 40 28]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[277 121 40 28]))
+PSNR(imcrop(mat2gray(imgtest),[217 386 55 30]), imcrop(mat2gray(res(1).bl_rl_imgs(31).image),[217 386 55 30]))
+PSNR(imcrop(mat2gray(imgtest),[192 175 44 32]), imcrop(mat2gray(res(1).image),[192 175 44 32]))
+PSNR(imcrop(mat2gray(imgtest),[216 15 72 40]), imcrop(mat2gray(res(1).image),[216 15 72 40]))
+PSNR(imcrop(mat2gray(imgtest),[277 121 40 28]), imcrop(mat2gray(res(1).image),[277 121 40 28]))
+PSNR(imcrop(mat2gray(imgtest),[217 386 55 30]), imcrop(mat2gray(res(1).image),[217 386 55 30]))
+
+
+
