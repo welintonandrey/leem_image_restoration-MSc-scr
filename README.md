@@ -67,7 +67,6 @@ Using the noise levels calculated above and the PSF, you can generate news image
 
 Only Noise:
 ```
-#!matlab
 for v = 1:length(allNoiseLevel)
     res(v).image = imnoise(mat2gray(imgtest),'gaussian',0,allNoiseLevel(v)/10);
     res(v).psnr = PSNR(imgtest,res(1,v).image);
@@ -77,7 +76,6 @@ end
 
 Noise and Blur:
 ```
-#!matlab
 for v = 1:length(allNoiseLevel)
     res(v).image = imnoise(mat2gray(imgtest),'gaussian',0,allNoiseLevel(v)/10);
     res(v).image = mat2gray(imfilter(res(v).image, PSF));
