@@ -103,7 +103,7 @@ This experiment can be performed by running the script **/scripts/script_get_std
 
 #### Experiment Four  ####
 
-This experiment is in another git repository available in [GitHub](?????). The tests performed by the same are explained in the article that will appear in SIBGRAPI 2016.
+This experiment is in another git repository available in [3D_denosing - GitHub](https://github.com/welintonandrey/3d_denoising). The tests performed by the same are explained in the article that will appear in SIBGRAPI 2016.
 
 #### Experiment Five  ####
 
