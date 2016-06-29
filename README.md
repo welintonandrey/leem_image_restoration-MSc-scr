@@ -28,7 +28,8 @@ The external algorithms used in this work can be download in the following links
 
 #### PSF estimation ####
 
-* **Fast motion deblurring **:  Sunghyun and Seungyong source code [2]
+* **Fast Motion Deblurring**:  Sunghyun and Seungyong source code [2]
+*
 
 ***
 
@@ -36,10 +37,11 @@ The external algorithms used in this work can be download in the following links
 
 All datasets used in this work can be downloaded at the following links:
 
-* **Datasets provided by Prof. Dr. Wen-Xin Tang**: (?????)
-* **Datasets provided by Prof. Dr. Gong Chen**: (?????)
+* **Datasets provided by Prof. Dr. Wen-Xin Tang**: [Data Dr. Wen-Xin Tang](https://1drv.ms/f/s!AgzhhDpbuwDfjg5mAfOkk5XeU4Li)
+* **Datasets provided by Prof. Dr. Gong Chen**: [Data Dr Gong Chen](https://1drv.ms/f/s!AgzhhDpbuwDf305pWErjCO5QjtS-)
 * **Rogge et al. [3]**: (http://www.nature.com/ncomms/2015/150420/ncomms7880/full/ncomms7880.html)
 * **Qin et al. [4]**: (http://www.pnas.org/content/112/2/E103.abstract)
+* **OneDrive with all data**: [OneDrive](https://1drv.ms/f/s!AgzhhDpbuwDfjV8_w5sUVhfQZ9Bn)
 
 ***
 
@@ -52,14 +54,19 @@ All datasets used in this work can be downloaded at the following links:
 The results of the histogram fitting can be done running the file **/tests/fit_dist_noise/testes_distribuicoes.m** or using the methods **FitMeThis.m** and **AllFitDist.m**.
 Take the pixels of a homogeneous region of the image that contains noisy. Pass these pixels as a vector for the methods. Will return the probability distribution. As the pictures below:
 
+Get pixels in homogeneous region:
+
 ![GetHistogram](/tests/fit_dist_noise/fitsample/nial1_hist.png)
+
+Sample fit with **AllFitDist.m**:
+
 ![Fit](/tests/fit_dist_noise/fitsample/fit-gauss.png)
 
 Do this for all videos!
 
 **2 - PSF estimation**
 
-Using the source code [2] (Windows O.S. only) you can estimate the PSF for one picture. Use this source of all images and compute an average of all, then you will get the estimated PSF for each equipment.
+Using the source code in [2], for Windows O.S. only, you can estimate the PSF for one picture. Use this source of all images and compute an average of all, then you will get the estimated PSF for each equipment.
 
 **3 - Artificial images**
 
@@ -96,7 +103,7 @@ This experiment can be performed by running the script **/scripts/script_get_std
 
 #### Experiment Four  ####
 
-This experiment is in another git repository available in [GitHub](?????). The tests performed by the same are explained in the article that will appear in SIBGRAPI 2016.
+This experiment is in another git repository available in [3D_denosing - GitHub](https://github.com/welintonandrey/3d_denoising). The tests performed by the same are explained in the article that will appear in SIBGRAPI 2016.
 
 #### Experiment Five  ####
 
